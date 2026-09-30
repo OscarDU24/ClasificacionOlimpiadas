@@ -31,11 +31,11 @@ public class participante {
         this.edad = edad;
     }
 
-    public String getTelefono() {
+    public String getCorreo() {
         return correo;
     }
 
-    public void setTelefono(String telefono) {
+    public void setCorreo(String telefono) {
         this.correo = correo;
     }
 
