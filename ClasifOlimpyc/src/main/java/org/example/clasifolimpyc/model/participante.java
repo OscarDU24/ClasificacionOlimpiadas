@@ -3,15 +3,15 @@ package org.example.clasifolimpyc.model;
 public class participante {
     private String nombreCompleto;
     private Integer edad;
-    private String telefono;
+    private String correo;
     private String grupo;
 
     public participante() {}
 
-    public participante(String nombreCompleto, Integer edad, String telefono, String grupo) {
+    public participante(String nombreCompleto, Integer edad, String correo, String grupo) {
         this.nombreCompleto = nombreCompleto;
         this.edad = edad;
-        this.telefono = telefono;
+        this.correo = correo;
         this.grupo = grupo;
     }
 
@@ -32,11 +32,11 @@ public class participante {
     }
 
     public String getTelefono() {
-        return telefono;
+        return correo;
     }
 
     public void setTelefono(String telefono) {
-        this.telefono = telefono;
+        this.correo = correo;
     }
 
     public String getGrupo() {
