@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+            fx:controller="CONTROLLER_NAME"
+            prefHeight="400.0" prefWidth="600.0" alignment="CENTER" spacing="10.0">
+    <Label text="Visionar Grupos" style="-fx-font-size: 20px; -fx-font-weight: Bold" />
+    <VBox>
+        <HBox spacing="10.0">
+            <Button text="+" onAction="#SaltarVentanaRegistro" />
+            <ComboBox fx:id="comboGrupos" maxWidth="300" />
+        </HBox>
+        <TableView>
+            <columns>
+                <TableColumn text="Nombre Completo" prefWidth="242"/>
+                <TableColumn text="Edad" />
+                <TableColumn text="Correo" prefWidth="200"/>
+                <TableColumn text="Grupo" />
+            </columns>
+        </TableView>
+    </VBox>
+
+
+
+</VBox>
